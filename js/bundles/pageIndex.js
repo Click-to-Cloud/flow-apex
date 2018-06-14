@@ -153,7 +153,7 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param234 = function param234() {
+    var param3 = function param3() {
       $header(opt_data, null, opt_ijData);
       $why(null, null, opt_ijData);
       $features(null, null, opt_ijData);
@@ -161,7 +161,7 @@ goog.loadModule(function (exports) {
       $highlights(null, null, opt_ijData);
       $templateAlias2(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param234 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param3 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
@@ -181,12 +181,12 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'header');
     ie_open('div', null, null, 'class', 'container');
     ie_open('h1', null, null, 'class', 'header-title');
-    var dyn22 = opt_data.site.title;
-    if (typeof dyn22 == 'function') dyn22();else if (dyn22 != null) itext(dyn22);
+    var dyn0 = opt_data.site.title;
+    if (typeof dyn0 == 'function') dyn0();else if (dyn0 != null) itext(dyn0);
     ie_close('h1');
     ie_open('h2', null, null, 'class', 'header-subtitle');
-    var dyn23 = opt_data.site.index.description;
-    if (typeof dyn23 == 'function') dyn23();else if (dyn23 != null) itext(dyn23);
+    var dyn1 = opt_data.site.index.description;
+    if (typeof dyn1 == 'function') dyn1();else if (dyn1 != null) itext(dyn1);
     ie_close('h2');
     ie_open('div', null, null, 'class', 'btn-group');
     ie_open('a', null, null, 'href', '/flow-apex/tutorials/getting_started/step_1.html', 'class', 'btn btn-accent btn-sm');
